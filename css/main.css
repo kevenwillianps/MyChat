@@ -1,0 +1,16 @@
+html, body {
+
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth!important;
+    background: #f4f8fb !important;
+    color: #494f54!important;
+
+}
+
+.chat-area{
+
+    max-height: 300px;
+    overflow-x: auto;
+
+}

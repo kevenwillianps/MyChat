@@ -1,0 +1,12 @@
+RewriteEngine on
+DirectoryIndex index.php?table=geral&action=geral_datagrid
+#Clientes
+RewriteRule ^cliente/login/$ index.php?table=cliente&action=cliente_login
+RewriteRule ^cliente/register/$ index.php?table=cliente&action=cliente_register
+RewriteRule ^cliente/chat/$ index.php?table=cliente&action=cliente_chat
+#Usuario
+RewriteRule ^usuario/login/$ index.php?table=usuario&action=usuario_login
+RewriteRule ^usuario/register/$ index.php?table=usuario&action=usuario_register
+RewriteRule ^usuario/chat/$ index.php?table=usuario&action=usuario_chat
+#Redirecionamento de Erros
+ErrorDocument 404 http://localhost/MyChat/
